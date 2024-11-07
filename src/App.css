@@ -60,6 +60,13 @@ body {
   font-size: 1.85rem;
   font-weight: 800;
   margin-bottom: 1.25rem;
+  background-color: var(--white);
+  border: none;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: var(--yellow);
 }
 
 .text {

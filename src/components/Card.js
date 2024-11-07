@@ -6,7 +6,7 @@ function Card(props) {
       <img className="background" src={props.src} alt={props.alt} />
       <div className="tag">{props.tag}</div>
       <p className="published">{props.published}</p>
-      <h2 className="title">{props.title}</h2>
+      <button className="title">{props.title}</button>
       <p className="text">{props.text}</p>
       <div class="avatar-wrapper">
         <img className="avatar" src={props.avatar} alt="Avatar" />
