@@ -37,6 +37,7 @@ body {
 
 .background {
   width: 100%;
+  object-fit: contain;
   border-radius: 20px;
   margin-bottom: 1.5rem;
 }
@@ -72,7 +73,7 @@ body {
 .text {
   font-size: 1.2rem;
   color: var(--gray500);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .avatar-wrapper {
@@ -88,4 +89,27 @@ body {
 .name {
   font-size: 1rem;
   font-weight: 800;
+}
+
+@media screen and (max-width: 991px) {
+  * {
+    font-size: 12px;
+  }
+
+  .card {
+    width: 85%;
+  }
+
+  .published {
+    font-size: 0.85rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
 }

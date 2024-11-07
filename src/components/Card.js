@@ -8,7 +8,7 @@ function Card(props) {
       <p className="published">{props.published}</p>
       <button className="title">{props.title}</button>
       <p className="text">{props.text}</p>
-      <div class="avatar-wrapper">
+      <div className="avatar-wrapper">
         <img className="avatar" src={props.avatar} alt="Avatar" />
         <h3 className="name">{props.name}</h3>
       </div>
