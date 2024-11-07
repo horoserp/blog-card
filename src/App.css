@@ -15,6 +15,7 @@
 body {
   font-size: 16px;
   font-weight: 500;
+  color: var(--gray900);
   background-color: var(--yellow);
 }
 
@@ -27,9 +28,57 @@ body {
 
 .card {
   width: 25vw;
-  padding: 1.5rem;
+  padding: 1.75rem;
   background-color: var(--white);
   border: 2px var(--gray900) solid;
   border-radius: 30px;
   box-shadow: 10px 10px var(--gray900);
+}
+
+.background {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  width: max-content;
+  background-color: var(--yellow);
+  color: var(--gray900);
+  font-weight: 800;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.published {
+  color: var(--gray900);
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  font-size: 1.85rem;
+  font-weight: 800;
+  margin-bottom: 1.25rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: var(--gray500);
+  margin-bottom: 1rem;
+}
+
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 800;
 }
