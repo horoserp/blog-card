@@ -3,7 +3,7 @@ import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="card-wrapper">
+    <main className="card-wrapper">
       <Card
         src="/blog-card/images/illustration-article.svg"
         alt="Patterned Background"
@@ -14,7 +14,7 @@ function App() {
         avatar="/blog-card/images/image-avatar.webp"
         name="Greg Hooper"
       />
-    </div>
+    </main>
   );
 }
 

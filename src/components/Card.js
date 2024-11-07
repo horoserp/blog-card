@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div className="card">
+    <section className="card">
       <img className="background" src={props.src} alt={props.alt} />
       <div className="tag">{props.tag}</div>
       <p className="published">{props.published}</p>
@@ -10,9 +10,9 @@ function Card(props) {
       <p className="text">{props.text}</p>
       <div className="avatar-wrapper">
         <img className="avatar" src={props.avatar} alt="Avatar" />
-        <h3 className="name">{props.name}</h3>
+        <p className="name">{props.name}</p>
       </div>
-    </div>
+    </section>
   );
 }
 
