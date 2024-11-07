@@ -18,7 +18,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
-The challenge was to recreate a page to display various social links from scratch. I was given three screenshots of the final page: one mobile, one desktop and one showing the hover state. I was supplied the color pallete and fonts.
+The challenge was to recreate a page to display a blog card from scratch. I was given three screenshots of the final page: one mobile, one desktop and one showing the hover state. I was supplied the color pallete and fonts.
 
 ![mobile view](./public/images/mobile-design.jpg)
 ![desktop view](./public/images/desktop-design.jpg)
