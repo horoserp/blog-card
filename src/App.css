@@ -17,3 +17,19 @@ body {
   font-weight: 500;
   background-color: var(--yellow);
 }
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 25vw;
+  padding: 1.5rem;
+  background-color: var(--white);
+  border: 2px var(--gray900) solid;
+  border-radius: 30px;
+  box-shadow: 10px 10px var(--gray900);
+}
